@@ -63,4 +63,4 @@ and can be changed from one row rather than requiring an UPDATE CASCADE.
 |reps				|int		|not null, 1-100				|									|
 |weekly_sets		|int		|not null, 1-100				|									|
 |rir				|int		|not null, 0-10					|									|
-|weekly_frequency	|int		|not null, 0-10					|									|
+|weekly_frequency	|int		|not null, 0-7					|									|
