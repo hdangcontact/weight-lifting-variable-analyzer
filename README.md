@@ -1,5 +1,5 @@
 ## Purpose:
-	- Analyze how different training variables correlate with rate of strength increase for 
+	- Analyze how different training variables correlate with speed of strength progress for 
 	  exercises tracked in Excel to build a more effective training program
 
 ## Scope:
@@ -33,8 +33,8 @@
 		- or outside the acceptable range of a variable
 	- Graph the strength progress (calculated 1RM) over time for any given exercise
 	- Compare the graph of one value of a training variable with a graph
-	  of a different value
-	  to show the difference in correlation with strength increase over time
+	  of a different value for that variable
+	  to show the difference in speed of strength increase over time
 	- Support this feature for multiple training variables (weekly sets, rir, weekly frequency)
 	- Calculate and display a linear regression line and correlational (R^2) value
 	  for each graph.
@@ -63,4 +63,4 @@ and can be changed from one row rather than requiring an UPDATE CASCADE.
 |reps				|int		|not null, 1-100				|									|
 |weekly_sets		|int		|not null, 1-100				|									|
 |rir				|int		|not null, 0-10					|									|
-|weekly_frequency	|int		|not null, 0-7					|									|
+|weekly_frequency	|int		|not null, 1-7					|									|
