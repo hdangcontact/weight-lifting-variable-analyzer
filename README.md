@@ -18,4 +18,7 @@ Limitations:
 	- Training values are correlative with strength increase, not causal. If the user does
 	  not isolate a single training variable and keep everything else the same,
 	  they cannot say that a variable "caused" greater progress because another variable
-	  may be a confounding factor.
+	  may be a confounding factor. The most accurate way to use the program is to test
+	  1 variable at a time for a prolonged period, change it, and then measure progress
+	  for another prolonged period. After testing both, use the application to analyze
+	  your progress when comparing the two variables.
