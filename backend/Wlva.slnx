@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Wlva.Api.Tests/Wlva.Api.Tests.csproj" />
+  <Project Path="Wlva.Api/Wlva.Api.csproj" />
+</Solution>
