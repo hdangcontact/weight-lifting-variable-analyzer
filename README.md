@@ -44,6 +44,8 @@
 
 ### Exercises table:
 
+Types are in C#
+
 |	Column	|	Type	|	Constraints			|	Notes	|
 |----------	|---------	|----------------		|---------	|
 |id			|int		|primary key, no range	|			|
@@ -64,3 +66,9 @@ and can be changed from one row rather than requiring an UPDATE CASCADE.
 |weekly_sets		|int		|not null, 1-100				|									|
 |rir				|int		|not null, 0-10					|									|
 |weekly_frequency	|int		|not null, 1-7					|									|
+
+Increments for weight can be 0.1 rather than 0.5 -- data validation seems unneccessary when increments of 0.1 are still valid for calculating strength.
+2000lbs is the upper bound for weight because it is well above the world record for deadlift.
+Estimated 1RM is computed because not every set is going to be a one-rep max, but the metric for "strength"
+needs to be standardized to track progress across different weights and reps.
+
