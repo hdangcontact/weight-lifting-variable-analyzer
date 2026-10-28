@@ -75,3 +75,7 @@ Increments for weight can be 0.1 rather than 0.5 -- data validation seems unnecc
 
 Estimated 1RM is computed from raw data because a cached one-rep-max can become out of
 sync if the data it uses gets updated.
+
+### Design Decisions
+- I used SQLite because it's easy to setup (1 file DB) and fits the scope of my project (1 user, small data set)
+- If I expand this project to have a hosted DB with multiple concurrent users and stricter DB typing, then I should switch to PostgreSQL by switching the EF Core library and changing the configuration.
